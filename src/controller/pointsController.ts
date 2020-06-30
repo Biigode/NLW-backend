@@ -43,7 +43,8 @@ class PointsController {
     const trx = await knex.transaction();
 
     const point = {
-      image,
+      image:
+        "https://media-cdn.tripadvisor.com/media/photo-o/15/d3/c2/93/popular-market.jpg",
       name,
       email,
       whatsapp,
